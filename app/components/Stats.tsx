@@ -13,7 +13,7 @@ export function Stats() {
             <span>Global Live</span>
             <span>146 Countries, 2759 Cities</span>
           </div>
-          <Progress value={75} className="bg-gray-700" indicatorclassName="bg-blue-400" />
+          <Progress value={75} className="bg-gray-700" indicatorClassName="bg-blue-400" />
         </div>
         <div>
           <div className="mb-2 flex items-center justify-between text-sm">

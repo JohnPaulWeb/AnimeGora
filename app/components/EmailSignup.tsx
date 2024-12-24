@@ -14,7 +14,7 @@ export function EmailSignup() {
             <div className="relative h-24 w-24">
               <img
                 src="/avatar.jpg"
-                alt="Huang Long Logo"
+                alt="Kiyotaka Ayanokoji"
                 className="h-full w-full object-contain"
               />
             </div>
