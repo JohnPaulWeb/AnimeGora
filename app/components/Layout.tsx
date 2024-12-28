@@ -1,5 +1,5 @@
-import { Bell, HelpCircle, Search, Settings } from 'lucide-react'
-import Link from "next/link"
+import { Bell, HelpCircle, Settings } from 'lucide-react'
+// import Link from "next/link"
 import { Sidebar } from "./Sidebar"
 import { Input } from "@/components/ui/input"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"

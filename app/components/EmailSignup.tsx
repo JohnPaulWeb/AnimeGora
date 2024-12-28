@@ -1,6 +1,7 @@
 
 import { Navbar } from './Navbar';
 import { Character } from './Character';
+import Image from 'next/image';
 
 export function EmailSignup() {
   return (
@@ -12,8 +13,9 @@ export function EmailSignup() {
           {/* Left Content */}
           <div className="flex flex-col justify-center space-y-6 py-12">
             <div className="relative h-24 w-24">
-              <img
+              <Image
                 src="/avatar.jpg"
+                width={30} height={30}
                 alt="Kiyotaka Ayanokoji"
                 className="h-full w-full object-contain"
               />
